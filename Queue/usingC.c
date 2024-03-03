@@ -53,7 +53,7 @@ int dequeue(struct Queue* q){
     return ans;
 }
 
-int first(struct Queue* q){
+int peek(struct Queue* q){
     return q->arr[q->front];
 }
 
