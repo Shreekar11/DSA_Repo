@@ -11,7 +11,6 @@ void printAllSubsequence(int ind, vector<int> &arr, vector<int> &ans){
         cout << endl;
         return;
     }
-    
 
     // take the element
     ans.push_back(arr[ind]);
